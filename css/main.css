@@ -1,1 +1,194 @@
+body{
+	margin:0;
+	padding:0;
+	}
+#banner{
+	
+	background-image:url(../images/banner.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+
+	min-height:500px;
+}
+header h1{
+	color:black;
+	text-align:center;
+	font-size:3.2em;
+	font-family: 'Kaushan Script', cursive;
+}
+/*Stling Hamburger icon*/
+.hamburger{
+	width: 32px;
+    height: 2px;
+    background-color:#fff;
+	margin:6px 0;
+}
+.sidenav{
+ height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color:#e74c3c;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration:none;
+    font-size: 1.2em;
+    color: #fff;
+		font-family: 'Roboto', sans-serif;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+/*dimension and styling for main content of the page*/
+
+main p,section p,nav,li,table{
+	font-size:1.3em;
+	max-width:960px;
+	margin:0 auto;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+.column {
+  float: left;
+  width:50%;
+ padding:20px;
+ box-sizing:border-box;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h2{
+	background:url(../images/thin-paint-brush-stroke.png) no-repeat;
+	height:30px;
+	background-position:50% 20%;
+	color:black;
+	text-align:center;
+	font-size:1.7em;
+	font-family: 'Kaushan Script', cursive;
+	padding:20px;
+}
+
+button{
+    padding:20px;
+	border:none;
+	margin-right:40px;
+	margin-left:20px;
+	font-size:1.2em;
+}
+.subhead{
+	background-color:#f1c40f;
+	padding:8px;
+	
+	
+}
+/*styles button links at the bottom*/
+#first-b{
+	background-color:#1abc9c;
+	transition:background-color 0.3s ease;
+}
+#first-bg{
+	background-color:#95a5a6;
+	transition:background-color 0.3s ease;
+}
+#first-bg:hover{
+	background-color:#7f8c8d;
+	transition:background-color 0.3s ease;
+}
+#first-b:hover{
+	background-color:#16a085;
+	
+}
+#second-b{
+	background-color:#e74c3c;
+	transition:background-color 0.3s ease;
+}
+#second-b:hover{
+	background-color:#c0392b;
+}
+#third-b{
+	background-color:#f1c40f;
+		transition:background-color 0.3s ease;
+}
+#third-b:hover{
+	background-color:#f39c12;
+}
+a{
+	text-decoration:none;
+	color:#fff;
+}
+.link{
+	text-decoration:underline;
+	color:#f39c12;
+}
+a.footlink{
+	color:blue;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+footer{
+	font-size:1em;
+	max-width:960px;
+	margin:0 auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+/*Media queries*/
+
+@media screen and (max-width:955px){
+	button{
+		display:block;
+    padding:10px;
+	border:none;
+	margin:0 auto 10px auto;
+	font-size:1em;
+}
+}
+@media screen and (max-width:648px){
+	nav{
+		display:none;
+	}
+	#nav-menu{
+		padding:4px;
+		border-radius:5px;
+		background:#e74c3c;
+	    position:absolute;
+		right:2px;
+		top:2px;
+	}
+	}
+	
 
