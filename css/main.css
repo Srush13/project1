@@ -4,7 +4,7 @@ body{
 	}
 #banner{
 	
-	background-image:url(../images/banner.jpg);
+	background-image:url(banner.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 
@@ -85,7 +85,7 @@ main p,section p,nav,li,table{
 }
 
 h2{
-	background:url(../images/thin-paint-brush-stroke.png) no-repeat;
+	background:url(thin-paint-brush-stroke.png) no-repeat;
 	height:30px;
 	background-position:50% 20%;
 	color:black;
