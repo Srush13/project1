@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Roboto');
 body{
 	margin:0px;
 	padding:0px;
@@ -107,13 +108,7 @@ h2{
 
 }
 
-button{
-    padding:20px;
-	border:none;
-	margin-right:40px;
-	margin-left:20px;
-	font-size:1.2em;
-}
+
 .subhead{
 	background-color:#f1c40f;
 	padding:8px;
@@ -122,10 +117,20 @@ button{
 }
 /*styles button links at the bottom*/
 #first-b{
+	    padding:20px;
+	border:none;
+	margin-right:40px;
+	margin-left:20px;
+	font-size:1.2em;
 	background-color:#00a0b6;
 	transition:background-color 0.3s ease;
 }
 #first-bg{
+	    padding:20px;
+	border:none;
+	margin-right:40px;
+	margin-left:20px;
+	font-size:1.2em;
 	background-color:#95a5a6;
 	transition:background-color 0.3s ease;
 }
@@ -138,6 +143,11 @@ button{
 	
 }
 #second-b{
+	    padding:20px;
+	border:none;
+	margin-right:40px;
+	margin-left:20px;
+	font-size:1.2em;
 	background-color:#eb261e;
 	transition:background-color 0.3s ease;
 }
@@ -145,6 +155,11 @@ button{
 	background-color:#c0392b;
 }
 #third-b{
+	    padding:20px;
+	border:none;
+	margin-right:40px;
+	margin-left:20px;
+	font-size:1.2em;
 	background-color:#f1c40f;
 		transition:background-color 0.3s ease;
 }
